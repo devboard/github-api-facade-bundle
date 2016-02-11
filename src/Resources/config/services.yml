@@ -1,0 +1,7 @@
+services:
+    devboard_github.client.factory:
+        class: DevBoardLib\GithubApiFacade\Client\KnpLabsClientFactory
+
+    devboard_github.facade.repo.factory:
+        class: DevBoardLib\GithubApiFacade\Repo\RepoFacadeFactory
+        arguments: ["@devboard_github.client.factory"]
