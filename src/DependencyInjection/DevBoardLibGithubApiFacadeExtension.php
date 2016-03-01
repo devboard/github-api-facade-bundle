@@ -1,4 +1,5 @@
 <?php
+
 namespace DevBoardLib\GithubApiFacadeBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
