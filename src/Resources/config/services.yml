@@ -5,3 +5,7 @@ services:
     devboard_github.facade.repo.factory:
         class: DevBoardLib\GithubApiFacade\Repo\RepoFacadeFactory
         arguments: ["@devboard_github.client.factory"]
+
+    devboard_github.facade.user.factory:
+        class: DevBoardLib\GithubApiFacade\User\UserFacadeFactory
+        arguments: ["@devboard_github.client.factory"]
