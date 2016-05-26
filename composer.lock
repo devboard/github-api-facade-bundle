@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1e4deb1ca5d5e6cacee84ee7f5af9b24",
-    "content-hash": "a715d9511a97e9ff37375b3b241206af",
+    "hash": "67146d9bfc1325034fcf84de04d11e63",
+    "content-hash": "2100ffa9e77d49491fee5a6ea71c21ba",
     "packages": [
         {
             "name": "devboard/github-api-facade",
-            "version": "v0.4.1",
+            "version": "0.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devboard/github-api-facade.git",
-                "reference": "8a87b51eb3f167afa21170b73e4f4a3695f521b8"
+                "reference": "8a5a5869857eb8c4c9e061fc82189577fedfb3a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devboard/github-api-facade/zipball/8a87b51eb3f167afa21170b73e4f4a3695f521b8",
-                "reference": "8a87b51eb3f167afa21170b73e4f4a3695f521b8",
+                "url": "https://api.github.com/repos/devboard/github-api-facade/zipball/8a5a5869857eb8c4c9e061fc82189577fedfb3a3",
+                "reference": "8a5a5869857eb8c4c9e061fc82189577fedfb3a3",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
                 "proprietary"
             ],
             "description": "Github API facade",
-            "time": "2016-05-21 19:38:19"
+            "time": "2016-05-22 12:31:53"
         },
         {
             "name": "devboard/github-core",
@@ -3398,7 +3398,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "devboard/github-api-facade": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
